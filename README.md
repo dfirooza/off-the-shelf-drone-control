@@ -19,3 +19,13 @@ Interfaced an inexpensive drone($18) with Arduino in order to control drone inpu
 
 # Drone Controller
 
+# Stabilizing and Launching
+
+* Added low-pass RC filters (PWM to DC) and OP-AMPs to Arduino’s 4 PWM outputs
+* Added one PWM output in the code for launch/land followed by an RC filter(C connected to 3.35 v) to the new PWM pin.
+* After this testing was complete, I wrote a program to control the drone launch/land, throttle, pitch, and yaw through the Arduino IDE
+* I was able to make it turn on and ascend/descend with triggering launch/land. Orbit was done using yaw and roll, and speed control was done by pitch. 
+* I also saw that adding a pause before landing improves control and makes it more smooth.
+
+# Circuit Schematic + Expansion Board Circuit
+
