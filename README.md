@@ -19,6 +19,10 @@ Interfaced an inexpensive drone($18) with Arduino in order to control drone inpu
 
 # Drone Controller
 
+![](DroneController.png)
+* Numbers indicate joystick connections#1 represents roll, #2 is pitch, #3 is throttle, #4 is yaw, #5 is land/launch
+
+
 # Stabilizing and Launching
 
 * Added low-pass RC filters (PWM to DC) and OP-AMPs to Arduino’s 4 PWM outputs
@@ -28,4 +32,6 @@ Interfaced an inexpensive drone($18) with Arduino in order to control drone inpu
 * I also saw that adding a pause before landing improves control and makes it more smooth.
 
 # Circuit Schematic + Expansion Board Circuit
+
+
 
