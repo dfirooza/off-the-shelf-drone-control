@@ -35,6 +35,6 @@ Interfaced an inexpensive drone($18) with Arduino in order to control drone inpu
 
 ![](CircuitSchematic.png)
 
-![](ExpansionBoardCircuit.png)
+![](TheExpansionBoardCircuit.png)
 
 
